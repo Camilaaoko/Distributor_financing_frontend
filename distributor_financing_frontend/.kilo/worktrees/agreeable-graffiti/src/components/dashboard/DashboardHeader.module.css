@@ -1,0 +1,83 @@
+.header { height: 68px; position: fixed; inset: 0 0 auto; z-index: 60; display: flex; align-items: center; gap: 20px; padding: 0 22px; background: #fff; box-shadow: 0 3px 15px #17355b0a; border-bottom: 1px solid #e6ebf3; color: #16365f; font-family: Arial, Helvetica, sans-serif; }
+.brand { display: flex; align-items: center; gap: 13px; width: 214px; flex-shrink: 0; }
+.brand img { width: 54px; height: auto; object-fit: contain; }
+.brand span { border-left: 1px solid #dfe6f1; padding-left: 11px; font-size: 14px; line-height: 1.25; font-weight: 700; color: #074fa8; }
+.icon { position: relative; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 9px; flex-shrink: 0; color: #16365f; }
+.icon:hover { background: #eef4fd; }
+.searchBox { position: relative; display: flex; align-items: center; gap: 13px; width: min(480px, 38vw); border: 1px solid #dfe6f0; border-radius: 12px; background: #f6f8fc; padding: 9px 12px; color: #546e95; }
+.searchBox input { width: 100%; min-width: 0; outline: none; background: transparent; font-size: 13px; border: none; }
+.searchBox input::placeholder { color: #7185a5; }
+.searchBox:focus-within { border-color: #5189d6; box-shadow: 0 0 0 3px #1264cf12; }
+.searchBox > svg { flex-shrink: 0; }
+.searchBox kbd { padding: 2px 7px; border-radius: 4px; background: white; box-shadow: 0 2px 2px #61779740; font-size: 14px; line-height: 1; font-family: inherit; }
+.tools { display: flex; align-items: center; gap: 16px; margin-left: auto; }
+.relative { position: relative; }
+.badge { position: absolute; top: 1px; right: 0; border-radius: 20px; padding: 2px 5px; min-width: 18px; color: white; background: #ef4938; font-size: 10px; font-weight: 700; border: 2px solid white; text-align: center; }
+.account { border-left: 1px solid #d4deed; padding-left: 20px; }
+.accountButton { display: flex; align-items: center; gap: 13px; text-align: left; background: none; border: none; cursor: pointer; }
+.avatar { display: grid; place-items: center; width: 38px; height: 38px; background: linear-gradient(145deg, #0663cf, #04449b); color: white; border-radius: 50%; font-size: 18px; font-weight: bold; flex-shrink: 0; }
+.identity { display: flex; flex-direction: column; gap: 3px; max-width: 180px; }
+.identity strong { font-size: 13px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #16365f; }
+.identity small { font-size: 11px; color: #7185a5; font-weight: 500; }
+.popover, .searchResults { position: absolute; top: calc(100% + 18px); right: 0; background: white; border: 1px solid #e0e7f1; border-radius: 13px; box-shadow: 0 12px 40px #12355c25; width: 340px; padding: 12px; max-height: min(520px, 75vh); overflow-y: auto; z-index: 70; }
+.searchResults { width: 100%; min-width: 290px; top: calc(100% + 8px); left: 0; right: auto; }
+.popover h2 { font-size: 14px; font-weight: 700; padding: 5px 8px 12px; margin: 0; color: #16365f; }
+.popover > p, .searchResults > p { font-size: 13px; color: #647894; padding: 10px 8px; margin: 0; overflow-wrap: anywhere; }
+.popover > a, .popover > button, .searchResults a { display: flex; align-items: center; gap: 10px; width: 100%; padding: 11px 8px; text-align: left; font-size: 13px; border-radius: 6px; color: #16365f; text-decoration: none; border: none; background: none; cursor: pointer; }
+.popover > a:hover, .popover > button:hover, .searchResults a:hover { background: #edf4ff; }
+.searchResults a { display: block; }
+.searchResults strong, .searchResults small { display: block; overflow-wrap: anywhere; }
+.searchResults strong { color: #16365f; font-size: 13px; }
+.searchResults small { color: #7185a5; margin-top: 3px; font-size: 11px; }
+.notification { padding: 12px 8px; border-bottom: 1px solid #e6ecf4; font-size: 13px; }
+.notification strong { display: block; color: #16365f; font-size: 13px; }
+.notification p { color: #687d99; padding: 4px 0; margin: 0; font-size: 12px; }
+.notification button, .popover p button { color: #0658bf; text-decoration: underline; font-size: 12px; background: none; border: none; cursor: pointer; padding: 0; }
+.header button { cursor: pointer; }
+.header :is(a, button):focus-visible { outline: 2px solid #2779d9; outline-offset: 3px; }
+@media (max-width: 1200px) { .header { gap: 15px; padding: 0 18px; } .brand { width: 204px; } .tools { gap: 10px; } .account { padding-left: 14px; } .identity { max-width: 120px; } }
+@media (max-width: 900px) { .identity { display: none; } .brand { width: auto; } .brand span { font-size: 12px; } .brand img { width: 52px; } .searchBox { flex: 1; width: auto; } .header { gap: 10px; } .avatar { width: 36px; height: 36px; font-size: 16px; } }
+@media (max-width: 640px) { .header { height: 112px; flex-wrap: wrap; gap: 5px 10px; padding: 10px 14px; align-content: center; } .brand { flex: 1; } .tools { gap: 3px; } .account { padding-left: 8px; } .accountButton { gap: 5px; } .searchBox { order: 5; flex: 0 0 100%; padding: 9px 12px; } .popover { position: fixed; top: 66px; left: 12px; right: 12px; width: auto; } .searchResults { min-width: 0; } .brand span { font-size: 11px; } .icon { width: 32px; } }
+
+.icon > svg { width: 21px; height: 21px; }
+.searchBox > svg { width: 20px; height: 20px; }
+.sidebarToggle { border-radius: 50%; background: #eef5ff; color: #08479d; border: none; }
+.compactBrand span { display: none; }
+
+@media (min-width: 1024px) {
+  .header {
+    height: var(--header-height);
+    display: grid;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr) auto;
+    gap: 0;
+    padding: 0;
+    transition: grid-template-columns var(--shell-transition);
+  }
+  .brand {
+    grid-column: 1;
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    padding: 0 22px;
+    overflow: hidden;
+    border-right: 1px solid #dfe6f1;
+  }
+  .brand span { flex-shrink: 0; }
+  .brand img { flex-shrink: 0; }
+  .compactBrand { justify-content: center; padding: 0 12px; }
+  .sidebarToggle {
+    position: absolute;
+    left: calc(var(--sidebar-width) - 18px);
+    top: calc((var(--header-height) - 36px) / 2);
+    z-index: 1;
+    transition: left var(--shell-transition);
+  }
+  .searchBox {
+    grid-column: 2;
+    width: auto;
+    min-width: 0;
+    max-width: 480px;
+    margin: 0 20px 0 32px;
+  }
+  .tools { grid-column: 3; margin: 0; padding-right: 22px; }
+}

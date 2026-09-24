@@ -1,0 +1,7 @@
+services:
+  frontend:
+    image: omaedeborah/distributor-financing-frontend:latest
+    container_name: distributor-financing-frontend
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

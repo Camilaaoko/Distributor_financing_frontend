@@ -1,0 +1,17 @@
+.platform { background: linear-gradient(165deg, #174eaa 0%, #1c48a0 100%); border-right-color: #194699; }
+.platform nav { padding: 14px 12px; scrollbar-width: thin; scrollbar-color: #ffffff40 transparent; overscroll-behavior: contain; }
+.platform nav::-webkit-scrollbar { width: 5px; }
+.platform nav::-webkit-scrollbar-track { background: transparent; }
+.platform nav::-webkit-scrollbar-thumb { background: #ffffff40; border-radius: 8px; }
+.platform nav > a { min-height: 44px; padding: 10px 13px; margin-top: 4px; gap: 12px; border-radius: 10px; font-size: 13px; line-height: 20px; font-weight: 500; color: #d4e2fa; transition: background 150ms, color 150ms; }
+.platform nav > a:first-child { margin-top: 0; }
+.platform nav > a > svg { width: 20px; height: 20px; color: #b8cef2; stroke-width: 1.8; }
+.platform nav > a:hover { background: #ffffff12; color: white; }
+.platform nav > a[aria-current='page'] { background: linear-gradient(110deg, #ff941c, #f77b0c); box-shadow: 0 3px 8px #122d6620; font-weight: 600; color: white; }
+.platform nav > a[aria-current='page'] > svg { color: white; }
+.platform :is(a, button):focus-visible { outline: 2px solid white; outline-offset: 2px; }
+.footer { padding: 12px; border-top: 1px solid #ffffff12; }
+.footer > div { padding: 10px; gap: 10px; border-radius: 10px; background: #103d8c80; }
+.footer > div > div:first-child { width: 32px; height: 32px; background: #ffffff14; border: 1px solid #ffffff30; font-size: 12px; }
+.footer button { color: #c6d8f5; }
+.footer button:hover { color: white; background: #ffffff14; }

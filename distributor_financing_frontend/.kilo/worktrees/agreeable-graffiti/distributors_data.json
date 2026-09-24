@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "slug": "Distributor_1_KCB_Athi_River_Builders_Depot",
+    "category": "Cement Only (KCB Bank Kenya)",
+    "bankName": "KCB Bank Kenya",
+    "bankBranch": "Kitengela Main Branch, Machakos County",
+    "bankCode": "KCB",
+    "primaryColor": "#007A33",
+    "secondaryColor": "#FFB81C",
+    "accentColor": "#F0F9F3",
+    "borderColor": "#007A33",
+    "tagline": "Bank Better. Bank Together. • Kitengela Branch Operations",
+    "portalId": "EMP-KCB-DF-101",
+    "businessName": "Athi River Builders Depot Ltd",
+    "regNo": "PVT-2023MN4512",
+    "location": "Kitengela Main Branch, Machakos County, Kenya",
+    "kraPin": "P052345678W",
+    "lineOfGoods": "Exclusive Wholesale Distribution of Bamburi Portland Cement",
+    "repName": "David Mutua",
+    "repId": "24112233",
+    "phone": "+254 722 111 222",
+    "email": "athiriverbuilders@gmail.com",
+    "accountNo": "1209876543 (Kitengela Branch)",
+    "totalCredits": "KES 120,000,000.00",
+    "totalDebits": "KES 102,200,000.00",
+    "closingBalance": "KES 30,300,000.00",
+    "avgBalance": "KES 16,400,000.00",
+    "avgHeader": "~KES 14,500,000",
+    "turnoverHeader": "KES 120,000,000",
+    "certificationText": "Certified true and correct financial record issued by KCB Bank Kenya, Kitengela Branch Operations Department for distributor financing onboarding.",
+    "transactions": [
+      {
+        "date": "02/09/2025",
+        "desc": "Opening Balance B/F",
+        "in": "",
+        "out": "",
+        "bal": "12,500,000.00"
+      },
+      {
+        "date": "15/09/2025",
+        "desc": "Bulk Sales - Hardware Networks (Machakos)",
+        "in": "10,500,000.00",
+        "out": "",
+        "bal": "23,000,000.00"
+      },
+      {
+        "date": "28/09/2025",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "8,200,000.00",
+        "bal": "14,800,000.00"
+      },
+      {
+        "date": "15/10/2025",
+        "desc": "Bulk Sales - Kitengela Mega Construct",
+        "in": "11,000,000.00",
+        "out": "",
+        "bal": "25,800,000.00"
+      },
+      {
+        "date": "30/10/2025",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "9,000,000.00",
+        "bal": "16,800,000.00"
+      },
+      {
+        "date": "14/11/2025",
+        "desc": "Bulk Sales - Athi River Retailers",
+        "in": "9,800,000.00",
+        "out": "",
+        "bal": "26,600,000.00"
+      },
+      {
+        "date": "28/11/2025",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "7,500,000.00",
+        "bal": "19,100,000.00"
+      },
+      {
+        "date": "15/12/2025",
+        "desc": "Bulk Sales - Year-End Infrastructure Supply",
+        "in": "12,200,000.00",
+        "out": "",
+        "bal": "31,300,000.00"
+      },
+      {
+        "date": "22/12/2025",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "10,100,000.00",
+        "bal": "21,200,000.00"
+      },
+      {
+        "date": "15/01/2026",
+        "desc": "Bulk Sales - Regional Hardware Stockists",
+        "in": "9,500,000.00",
+        "out": "",
+        "bal": "30,700,000.00"
+      },
+      {
+        "date": "30/01/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "8,400,000.00",
+        "bal": "22,300,000.00"
+      },
+      {
+        "date": "16/02/2026",
+        "desc": "Bulk Sales - County Construction Projects",
+        "in": "10,000,000.00",
+        "out": "",
+        "bal": "32,300,000.00"
+      },
+      {
+        "date": "27/02/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "8,900,000.00",
+        "bal": "23,400,000.00"
+      },
+      {
+        "date": "15/03/2026",
+        "desc": "Bulk Sales - Retailers Syndicate",
+        "in": "10,200,000.00",
+        "out": "",
+        "bal": "33,600,000.00"
+      },
+      {
+        "date": "30/03/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "9,100,000.00",
+        "bal": "24,500,000.00"
+      },
+      {
+        "date": "15/04/2026",
+        "desc": "Bulk Sales - Nairobi South Outskirts",
+        "in": "9,900,000.00",
+        "out": "",
+        "bal": "34,400,000.00"
+      },
+      {
+        "date": "29/04/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "8,800,000.00",
+        "bal": "25,600,000.00"
+      },
+      {
+        "date": "15/05/2026",
+        "desc": "Bulk Sales - Hardware Networks",
+        "in": "10,100,000.00",
+        "out": "",
+        "bal": "35,700,000.00"
+      },
+      {
+        "date": "29/05/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "9,000,000.00",
+        "bal": "26,700,000.00"
+      },
+      {
+        "date": "15/06/2026",
+        "desc": "Bulk Sales - Kitengela Suppliers",
+        "in": "9,600,000.00",
+        "out": "",
+        "bal": "36,300,000.00"
+      },
+      {
+        "date": "29/06/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "8,500,000.00",
+        "bal": "27,800,000.00"
+      },
+      {
+        "date": "15/07/2026",
+        "desc": "Bulk Sales - Retailers",
+        "in": "10,300,000.00",
+        "out": "",
+        "bal": "38,100,000.00"
+      },
+      {
+        "date": "30/07/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "9,200,000.00",
+        "bal": "28,900,000.00"
+      },
+      {
+        "date": "14/08/2026",
+        "desc": "Bulk Sales - Infrastructure Order",
+        "in": "10,800,000.00",
+        "out": "",
+        "bal": "39,700,000.00"
+      },
+      {
+        "date": "31/08/2026",
+        "desc": "Payment to Bamburi Cement Ltd (Stock)",
+        "in": "",
+        "out": "9,400,000.00",
+        "bal": "30,300,000.00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "Distributor_2_NCBA_Ruiru_Apex_Steel",
+    "category": "Steel Mills Only (NCBA Bank Kenya)",
+    "bankName": "NCBA Bank Kenya",
+    "bankBranch": "Ruiru Branch, Kiambu County",
+    "bankCode": "NCBA",
+    "primaryColor": "#002B66",
+    "secondaryColor": "#C49A45",
+    "accentColor": "#F0F4FA",
+    "borderColor": "#002B66",
+    "tagline": "Go For It. Numbers That Matter. • Ruiru Operations",
+    "portalId": "EMP-NCBA-DF-205",
+    "businessName": "Ruiru Apex Steel Distributors Ltd",
+    "regNo": "PVT-2022ST7890",
+    "location": "Ruiru Industrial Park, Kiambu County, Kenya",
+    "kraPin": "P053456789X",
+    "lineOfGoods": "Exclusive Wholesale Distribution of Apex Steel Bars & Profiles",
+    "repName": "Fatma Omar",
+    "repId": "25334455",
+    "phone": "+254 733 444 555",
+    "email": "ruiruapex@gmail.com",
+    "accountNo": "4801234567 (Ruiru Branch)",
+    "totalCredits": "KES 135,000,000.00",
+    "totalDebits": "KES 109,700,000.00",
+    "closingBalance": "KES 36,500,000.00",
+    "avgBalance": "KES 18,150,000.00",
+    "avgHeader": "~KES 15,200,000",
+    "turnoverHeader": "KES 135,000,000",
+    "certificationText": "Certified true and correct financial record issued by NCBA Bank Kenya, Ruiru Branch Operations Department for distributor financing onboarding.",
+    "transactions": [
+      {
+        "date": "02/09/2025",
+        "desc": "Opening Balance B/F",
+        "in": "",
+        "out": "",
+        "bal": "11,200,000.00"
+      },
+      {
+        "date": "15/09/2025",
+        "desc": "Bulk Sales - Central Hardware Stockists",
+        "in": "12,000,000.00",
+        "out": "",
+        "bal": "23,200,000.00"
+      },
+      {
+        "date": "28/09/2025",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,500,000.00",
+        "bal": "13,700,000.00"
+      },
+      {
+        "date": "14/10/2025",
+        "desc": "Bulk Sales - Thika Highway Projects",
+        "in": "11,500,000.00",
+        "out": "",
+        "bal": "25,200,000.00"
+      },
+      {
+        "date": "30/10/2025",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,000,000.00",
+        "bal": "16,200,000.00"
+      },
+      {
+        "date": "15/11/2025",
+        "desc": "Bulk Sales - Kiambu Construction Hub",
+        "in": "12,500,000.00",
+        "out": "",
+        "bal": "28,700,000.00"
+      },
+      {
+        "date": "29/11/2025",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "10,200,000.00",
+        "bal": "18,500,000.00"
+      },
+      {
+        "date": "16/12/2025",
+        "desc": "Bulk Sales - Commercial Developers",
+        "in": "13,000,000.00",
+        "out": "",
+        "bal": "31,500,000.00"
+      },
+      {
+        "date": "22/12/2025",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "11,000,000.00",
+        "bal": "20,500,000.00"
+      },
+      {
+        "date": "15/01/2026",
+        "desc": "Bulk Sales - Regional Hardware Stores",
+        "in": "11,000,000.00",
+        "out": "",
+        "bal": "31,500,000.00"
+      },
+      {
+        "date": "30/01/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,200,000.00",
+        "bal": "22,300,000.00"
+      },
+      {
+        "date": "16/02/2026",
+        "desc": "Bulk Sales - Industrial Fabricators",
+        "in": "11,800,000.00",
+        "out": "",
+        "bal": "34,100,000.00"
+      },
+      {
+        "date": "27/02/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,800,000.00",
+        "bal": "24,300,000.00"
+      },
+      {
+        "date": "15/03/2026",
+        "desc": "Bulk Sales - Ruiru Contractors",
+        "in": "12,200,000.00",
+        "out": "",
+        "bal": "36,500,000.00"
+      },
+      {
+        "date": "30/03/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "10,000,000.00",
+        "bal": "26,500,000.00"
+      },
+      {
+        "date": "15/04/2026",
+        "desc": "Bulk Sales - Hardware Outlets",
+        "in": "11,400,000.00",
+        "out": "",
+        "bal": "37,900,000.00"
+      },
+      {
+        "date": "29/04/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,400,000.00",
+        "bal": "28,500,000.00"
+      },
+      {
+        "date": "15/05/2026",
+        "desc": "Bulk Sales - Structural Engineers Supply",
+        "in": "11,600,000.00",
+        "out": "",
+        "bal": "40,100,000.00"
+      },
+      {
+        "date": "29/05/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,600,000.00",
+        "bal": "30,500,000.00"
+      },
+      {
+        "date": "15/06/2026",
+        "desc": "Bulk Sales - Central Retailers",
+        "in": "11,000,000.00",
+        "out": "",
+        "bal": "41,500,000.00"
+      },
+      {
+        "date": "29/06/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,000,000.00",
+        "bal": "32,500,000.00"
+      },
+      {
+        "date": "15/07/2026",
+        "desc": "Bulk Sales - Mega Builders Ltd",
+        "in": "11,500,000.00",
+        "out": "",
+        "bal": "44,000,000.00"
+      },
+      {
+        "date": "30/07/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "9,500,000.00",
+        "bal": "34,500,000.00"
+      },
+      {
+        "date": "14/08/2026",
+        "desc": "Bulk Sales - Kiambu Hardware Syndicate",
+        "in": "12,000,000.00",
+        "out": "",
+        "bal": "46,500,000.00"
+      },
+      {
+        "date": "31/08/2026",
+        "desc": "Payment to Apex Steel Mills (Stock)",
+        "in": "",
+        "out": "10,000,000.00",
+        "bal": "36,500,000.00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "Distributor_3_SCB_Mt_Kenya_Refreshments",
+    "category": "Coca-Cola Products Only (Standard Chartered Bank Kenya)",
+    "bankName": "Standard Chartered Bank Kenya",
+    "bankBranch": "Nyeri Town Branch, Nyeri County",
+    "bankCode": "SCB",
+    "primaryColor": "#006DB6",
+    "secondaryColor": "#009A44",
+    "accentColor": "#EEF7FC",
+    "borderColor": "#006DB6",
+    "tagline": "Here for good. Wealth & Corporate Banking • Nyeri Branch",
+    "portalId": "EMP-SCB-DF-312",
+    "businessName": "Mount Kenya Equatorial Refreshments Ltd",
+    "regNo": "PVT-2021CC3344",
+    "location": "Nyeri Town Branch, Nyeri County, Kenya",
+    "kraPin": "P054567890Y",
+    "lineOfGoods": "Exclusive Wholesale Distribution of Coca-Cola Beverages Africa (CCBA) Portfolio",
+    "repName": "Brian Kiprono",
+    "repId": "27889900",
+    "phone": "+254 744 555 666",
+    "email": "mtkenyaequatorial@gmail.com",
+    "accountNo": "0102030405060 (Nyeri Branch)",
+    "totalCredits": "KES 110,000,000.00",
+    "totalDebits": "KES 94,500,000.00",
+    "closingBalance": "KES 33,000,000.00",
+    "avgBalance": "KES 14,100,000.00",
+    "avgHeader": "~KES 11,800,000",
+    "turnoverHeader": "KES 110,000,000",
+    "certificationText": "Certified true and correct financial record issued by Standard Chartered Bank Kenya, Nyeri Branch Operations Department for distributor financing onboarding.",
+    "transactions": [
+      {
+        "date": "02/09/2025",
+        "desc": "Opening Balance B/F",
+        "in": "",
+        "out": "",
+        "bal": "9,500,000.00"
+      },
+      {
+        "date": "15/09/2025",
+        "desc": "Bulk Sales - Nyeri Retailers & Supermarkets",
+        "in": "9,800,000.00",
+        "out": "",
+        "bal": "19,300,000.00"
+      },
+      {
+        "date": "28/09/2025",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,800,000.00",
+        "bal": "11,500,000.00"
+      },
+      {
+        "date": "14/10/2025",
+        "desc": "Bulk Sales - Nanyuki Distributors",
+        "in": "10,200,000.00",
+        "out": "",
+        "bal": "21,700,000.00"
+      },
+      {
+        "date": "30/10/2025",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "8,100,000.00",
+        "bal": "13,600,000.00"
+      },
+      {
+        "date": "15/11/2025",
+        "desc": "Bulk Sales - Karatina Wholesalers",
+        "in": "9,500,000.00",
+        "out": "",
+        "bal": "23,100,000.00"
+      },
+      {
+        "date": "29/11/2025",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,400,000.00",
+        "bal": "15,700,000.00"
+      },
+      {
+        "date": "16/12/2025",
+        "desc": "Bulk Sales - Festive Season Stock",
+        "in": "11,500,000.00",
+        "out": "",
+        "bal": "27,200,000.00"
+      },
+      {
+        "date": "22/12/2025",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "9,500,000.00",
+        "bal": "17,700,000.00"
+      },
+      {
+        "date": "15/01/2026",
+        "desc": "Bulk Sales - Othaya Retail Network",
+        "in": "8,900,000.00",
+        "out": "",
+        "bal": "26,600,000.00"
+      },
+      {
+        "date": "30/01/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,000,000.00",
+        "bal": "19,600,000.00"
+      },
+      {
+        "date": "16/02/2026",
+        "desc": "Bulk Sales - Institution & Hospitality",
+        "in": "9,100,000.00",
+        "out": "",
+        "bal": "28,700,000.00"
+      },
+      {
+        "date": "27/02/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,200,000.00",
+        "bal": "21,500,000.00"
+      },
+      {
+        "date": "15/03/2026",
+        "desc": "Bulk Sales - Nyeri Town Outlets",
+        "in": "9,300,000.00",
+        "out": "",
+        "bal": "30,800,000.00"
+      },
+      {
+        "date": "30/03/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,500,000.00",
+        "bal": "23,300,000.00"
+      },
+      {
+        "date": "15/04/2026",
+        "desc": "Bulk Sales - Nanyuki Retailers",
+        "in": "9,000,000.00",
+        "out": "",
+        "bal": "32,300,000.00"
+      },
+      {
+        "date": "29/04/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,100,000.00",
+        "bal": "25,200,000.00"
+      },
+      {
+        "date": "15/05/2026",
+        "desc": "Bulk Sales - Karatina Supply Route",
+        "in": "9,200,000.00",
+        "out": "",
+        "bal": "34,400,000.00"
+      },
+      {
+        "date": "29/05/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,300,000.00",
+        "bal": "27,100,000.00"
+      },
+      {
+        "date": "15/06/2026",
+        "desc": "Bulk Sales - Regional Outlets",
+        "in": "8,800,000.00",
+        "out": "",
+        "bal": "35,900,000.00"
+      },
+      {
+        "date": "29/06/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "6,900,000.00",
+        "bal": "29,000,000.00"
+      },
+      {
+        "date": "15/07/2026",
+        "desc": "Bulk Sales - Nyeri Central",
+        "in": "9,400,000.00",
+        "out": "",
+        "bal": "38,400,000.00"
+      },
+      {
+        "date": "30/07/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,400,000.00",
+        "bal": "31,000,000.00"
+      },
+      {
+        "date": "14/08/2026",
+        "desc": "Bulk Sales - Mount Kenya Distributors",
+        "in": "9,600,000.00",
+        "out": "",
+        "bal": "40,600,000.00"
+      },
+      {
+        "date": "31/08/2026",
+        "desc": "Payment to Coca-Cola Bottlers (Stock)",
+        "in": "",
+        "out": "7,600,000.00",
+        "bal": "33,000,000.00"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "Distributor_4_ABSA_Eldoret_Prime_Spirits",
+    "category": "Alcoholic Beverages Only (Absa Bank Kenya)",
+    "bankName": "Absa Bank Kenya",
+    "bankBranch": "Eldoret Main Branch, Uasin Gishu County",
+    "bankCode": "ABSA",
+    "primaryColor": "#AE002B",
+    "secondaryColor": "#FF2453",
+    "accentColor": "#FDF2F4",
+    "borderColor": "#AE002B",
+    "tagline": "That Africanacity. Business Banking • Eldoret Branch Operations",
+    "portalId": "EMP-ABSA-DF-409",
+    "businessName": "Eldoret Prime Spirits & Malt Distributors",
+    "regNo": "PVT-2023AL5566",
+    "location": "Eldoret Main Branch, Uasin Gishu County, Kenya",
+    "kraPin": "P055678901Z",
+    "lineOfGoods": "Exclusive Wholesale Distribution of East African Breweries PLC (EABL) Products",
+    "repName": "Sharon Cheptoo",
+    "repId": "28112233",
+    "phone": "+254 755 666 777",
+    "email": "eldoretprimespirits@gmail.com",
+    "accountNo": "2034567890 (Eldoret Branch)",
+    "totalCredits": "KES 140,000,000.00",
+    "totalDebits": "KES 121,500,000.00",
+    "closingBalance": "KES 43,500,000.00",
+    "avgBalance": "KES 19,200,000.00",
+    "avgHeader": "~KES 17,500,000",
+    "turnoverHeader": "KES 140,000,000",
+    "certificationText": "Certified true and correct financial record issued by Absa Bank Kenya, Eldoret Branch Operations Department for distributor financing onboarding.",
+    "transactions": [
+      {
+        "date": "02/09/2025",
+        "desc": "Opening Balance B/F",
+        "in": "",
+        "out": "",
+        "bal": "14,000,000.00"
+      },
+      {
+        "date": "15/09/2025",
+        "desc": "Bulk Sales - Eldoret Pubs & Bars Syndicate",
+        "in": "12,500,000.00",
+        "out": "",
+        "bal": "26,500,000.00"
+      },
+      {
+        "date": "28/09/2025",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,800,000.00",
+        "bal": "16,700,000.00"
+      },
+      {
+        "date": "14/10/2025",
+        "desc": "Bulk Sales - Kitale Retail Network",
+        "in": "11,800,000.00",
+        "out": "",
+        "bal": "28,500,000.00"
+      },
+      {
+        "date": "30/10/2025",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,100,000.00",
+        "bal": "19,400,000.00"
+      },
+      {
+        "date": "15/11/2025",
+        "desc": "Bulk Sales - Kapsabet Distributors",
+        "in": "12,000,000.00",
+        "out": "",
+        "bal": "31,400,000.00"
+      },
+      {
+        "date": "29/11/2025",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,500,000.00",
+        "bal": "21,900,000.00"
+      },
+      {
+        "date": "16/12/2025",
+        "desc": "Bulk Sales - Festive High-Volume Supply",
+        "in": "15,000,000.00",
+        "out": "",
+        "bal": "36,900,000.00"
+      },
+      {
+        "date": "22/12/2025",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "12,000,000.00",
+        "bal": "24,900,000.00"
+      },
+      {
+        "date": "15/01/2026",
+        "desc": "Bulk Sales - North Rift Outlets",
+        "in": "11,000,000.00",
+        "out": "",
+        "bal": "35,900,000.00"
+      },
+      {
+        "date": "30/01/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "8,800,000.00",
+        "bal": "27,100,000.00"
+      },
+      {
+        "date": "16/02/2026",
+        "desc": "Bulk Sales - Hospitality Sector Supply",
+        "in": "11,500,000.00",
+        "out": "",
+        "bal": "38,600,000.00"
+      },
+      {
+        "date": "27/02/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,200,000.00",
+        "bal": "29,400,000.00"
+      },
+      {
+        "date": "15/03/2026",
+        "desc": "Bulk Sales - Eldoret Central Wholesalers",
+        "in": "12,200,000.00",
+        "out": "",
+        "bal": "41,600,000.00"
+      },
+      {
+        "date": "30/03/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,600,000.00",
+        "bal": "32,000,000.00"
+      },
+      {
+        "date": "15/04/2026",
+        "desc": "Bulk Sales - Iten Retailers",
+        "in": "11,200,000.00",
+        "out": "",
+        "bal": "43,200,000.00"
+      },
+      {
+        "date": "29/04/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "8,900,000.00",
+        "bal": "34,300,000.00"
+      },
+      {
+        "date": "15/05/2026",
+        "desc": "Bulk Sales - Regional Entertainment Spots",
+        "in": "11,600,000.00",
+        "out": "",
+        "bal": "45,900,000.00"
+      },
+      {
+        "date": "29/05/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,300,000.00",
+        "bal": "36,600,000.00"
+      },
+      {
+        "date": "15/06/2026",
+        "desc": "Bulk Sales - Bar Owners Association",
+        "in": "11,300,000.00",
+        "out": "",
+        "bal": "47,900,000.00"
+      },
+      {
+        "date": "29/06/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,000,000.00",
+        "bal": "38,900,000.00"
+      },
+      {
+        "date": "15/07/2026",
+        "desc": "Bulk Sales - Eldoret Outskirts",
+        "in": "11,800,000.00",
+        "out": "",
+        "bal": "50,700,000.00"
+      },
+      {
+        "date": "30/07/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,500,000.00",
+        "bal": "41,200,000.00"
+      },
+      {
+        "date": "14/08/2026",
+        "desc": "Bulk Sales - Premium Lounge Supply",
+        "in": "12,100,000.00",
+        "out": "",
+        "bal": "53,300,000.00"
+      },
+      {
+        "date": "31/08/2026",
+        "desc": "Payment to EABL (Stock Purchase)",
+        "in": "",
+        "out": "9,800,000.00",
+        "bal": "43,500,000.00"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "Distributor_5_COOP_Nakuru_Genuine_Auto",
+    "category": "Automobile Parts Only (Co-operative Bank of Kenya)",
+    "bankName": "Co-operative Bank of Kenya",
+    "bankBranch": "Nakuru Town Branch, Nakuru County",
+    "bankCode": "CO-OP",
+    "primaryColor": "#006633",
+    "secondaryColor": "#0D3B66",
+    "accentColor": "#F0F7F2",
+    "borderColor": "#006633",
+    "tagline": "We are you. Kingdom Banking • Nakuru Operations Department",
+    "portalId": "EMP-COOP-DF-588",
+    "businessName": "Nakuru Genuine Auto Spares Ltd",
+    "regNo": "PVT-2020AP9988",
+    "location": "Nakuru Town Branch, Nakuru County, Kenya",
+    "kraPin": "P056789012A",
+    "lineOfGoods": "Exclusive Wholesale Distribution of Toyota Genuine Motor Parts",
+    "repName": "Peter Njoroge",
+    "repId": "23445566",
+    "phone": "+254 766 777 888",
+    "email": "nakuruautospares@gmail.com",
+    "accountNo": "01134567890100 (Nakuru Branch)",
+    "totalCredits": "KES 115,000,000.00",
+    "totalDebits": "KES 94,500,000.00",
+    "closingBalance": "KES 36,000,000.00",
+    "avgBalance": "KES 15,250,000.00",
+    "avgHeader": "~KES 13,200,000",
+    "turnoverHeader": "KES 115,000,000",
+    "certificationText": "Certified true and correct financial record issued by Co-operative Bank of Kenya, Nakuru Branch Operations Department for distributor financing onboarding.",
+    "transactions": [
+      {
+        "date": "02/09/2025",
+        "desc": "Opening Balance B/F",
+        "in": "",
+        "out": "",
+        "bal": "10,500,000.00"
+      },
+      {
+        "date": "15/09/2025",
+        "desc": "Bulk Sales - Rift Valley Spares Retailers",
+        "in": "10,000,000.00",
+        "out": "",
+        "bal": "20,500,000.00"
+      },
+      {
+        "date": "28/09/2025",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,900,000.00",
+        "bal": "12,600,000.00"
+      },
+      {
+        "date": "14/10/2025",
+        "desc": "Bulk Sales - Naivasha Auto Hub",
+        "in": "9,800,000.00",
+        "out": "",
+        "bal": "22,400,000.00"
+      },
+      {
+        "date": "30/10/2025",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,600,000.00",
+        "bal": "14,800,000.00"
+      },
+      {
+        "date": "15/11/2025",
+        "desc": "Bulk Sales - Kericho Mechanics Syndicate",
+        "in": "9,500,000.00",
+        "out": "",
+        "bal": "24,300,000.00"
+      },
+      {
+        "date": "29/11/2025",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,400,000.00",
+        "bal": "16,900,000.00"
+      },
+      {
+        "date": "16/12/2025",
+        "desc": "Bulk Sales - Year-End Garage Orders",
+        "in": "11,000,000.00",
+        "out": "",
+        "bal": "27,900,000.00"
+      },
+      {
+        "date": "22/12/2025",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "8,800,000.00",
+        "bal": "19,100,000.00"
+      },
+      {
+        "date": "15/01/2026",
+        "desc": "Bulk Sales - Nakuru Town Garages",
+        "in": "9,200,000.00",
+        "out": "",
+        "bal": "28,300,000.00"
+      },
+      {
+        "date": "30/01/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,100,000.00",
+        "bal": "21,200,000.00"
+      },
+      {
+        "date": "16/02/2026",
+        "desc": "Bulk Sales - Commercial Fleet Maintenance",
+        "in": "9,600,000.00",
+        "out": "",
+        "bal": "30,800,000.00"
+      },
+      {
+        "date": "27/02/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,500,000.00",
+        "bal": "23,300,000.00"
+      },
+      {
+        "date": "15/03/2026",
+        "desc": "Bulk Sales - Narok Auto Dealers",
+        "in": "9,400,000.00",
+        "out": "",
+        "bal": "32,700,000.00"
+      },
+      {
+        "date": "30/03/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,300,000.00",
+        "bal": "25,400,000.00"
+      },
+      {
+        "date": "15/04/2026",
+        "desc": "Bulk Sales - Nakuru Spares Suppliers",
+        "in": "9,100,000.00",
+        "out": "",
+        "bal": "34,500,000.00"
+      },
+      {
+        "date": "29/04/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,000,000.00",
+        "bal": "27,500,000.00"
+      },
+      {
+        "date": "15/05/2026",
+        "desc": "Bulk Sales - Regional Workshops",
+        "in": "9,300,000.00",
+        "out": "",
+        "bal": "36,800,000.00"
+      },
+      {
+        "date": "29/05/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,200,000.00",
+        "bal": "29,600,000.00"
+      },
+      {
+        "date": "15/06/2026",
+        "desc": "Bulk Sales - Naivasha Spares",
+        "in": "9,000,000.00",
+        "out": "",
+        "bal": "38,600,000.00"
+      },
+      {
+        "date": "29/06/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "6,800,000.00",
+        "bal": "31,800,000.00"
+      },
+      {
+        "date": "15/07/2026",
+        "desc": "Bulk Sales - Kericho Auto Centre",
+        "in": "9,500,000.00",
+        "out": "",
+        "bal": "41,300,000.00"
+      },
+      {
+        "date": "30/07/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,400,000.00",
+        "bal": "33,900,000.00"
+      },
+      {
+        "date": "14/08/2026",
+        "desc": "Bulk Sales - Nakuru Main Depot Stockist",
+        "in": "9,700,000.00",
+        "out": "",
+        "bal": "43,600,000.00"
+      },
+      {
+        "date": "31/08/2026",
+        "desc": "Payment to Toyota Kenya (Stock)",
+        "in": "",
+        "out": "7,600,000.00",
+        "bal": "36,000,000.00"
+      }
+    ]
+  }
+]

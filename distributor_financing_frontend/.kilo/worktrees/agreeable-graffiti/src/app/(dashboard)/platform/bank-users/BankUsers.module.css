@@ -1,0 +1,26 @@
+.page { display: flex; flex-direction: column; gap: 14px; }
+.breadcrumb { display: flex; align-items: center; gap: 12px; color: #6b7e9c; font-size: 12px; padding: 4px 10px 0; }
+.breadcrumb > span:last-child { color: #30486b; }
+.breadcrumb a:hover { color: #005cbd; }
+.heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 0 10px 4px; }
+.heading h1 { font-size: clamp(22px, 1.8vw, 26px); font-weight: 700; color: #102647; letter-spacing: -.5px; }
+.heading p { color: #7283a0; font-size: 12px; margin-top: 5px; }
+.refresh { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; border: 1px solid #dfe6f0; border-radius: 9px; background: white; color: #345478; font-size: 12px; flex-shrink: 0; }
+.refresh:hover { background: #edf4ff; }
+.page > section[aria-label='Bank user statistics'] { margin-bottom: 0; }
+.filters { background: white; border: 1px solid #e6ecf4; border-radius: 10px; box-shadow: 0 3px 12px #17365c06; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.filters input, .filters select { border-radius: 8px; min-height: 36px; padding-top: 8px; padding-bottom: 8px; font-size: 12px; border-color: #e1e8f2; font-weight: 400; }
+.filters label { font-size: 11px; text-transform: none; letter-spacing: normal; font-weight: 500; color: #637899; }
+.resultsHeading { display: flex; justify-content: space-between; align-items: center; padding: 3px 2px; gap: 12px; }
+.resultsHeading h2 { font-size: 15px; font-weight: 600; color: #183659; }
+.resultsHeading p { font-size: 11px; color: #7184a1; margin-top: 3px; }
+.resultsHeading button { font-size: 12px; color: #0759be; padding: 8px; }
+.page button:disabled { opacity: .5; cursor: not-allowed; }
+.page table th { background: #f3f6fa; font-size: 11px; font-weight: 600; text-transform: none; letter-spacing: normal; color: #4e6586; padding: 12px 16px; }
+.page table td { padding: 12px 16px; }
+.page table td p:first-child { font-size: 12px; font-weight: 600; }
+.page table button { border-radius: 8px; font-weight: 500; }
+.page > div:has(> div > table) { border-radius: 10px; border-color: #e6ecf4; }
+.page > div:has(> h3) { border-radius: 10px; padding: 40px 18px; }
+.page :is(input, select, button, a):focus-visible { outline: 2px solid #2477ed; outline-offset: 3px; }
+@media (max-width: 600px) { .heading { align-items: flex-start; padding-inline: 2px; } .breadcrumb { padding-inline: 2px; } .filters { padding: 12px; } .heading p { line-height: 1.5; } }

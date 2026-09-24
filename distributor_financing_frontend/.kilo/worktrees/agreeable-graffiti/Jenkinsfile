@@ -1,0 +1,83 @@
+pipeline {
+    agent any
+    environment {
+        DEPLOY_SERVER        = "plpops@172.16.0.11"
+        DEPLOY_DIR           = "Deborah/grp/distributor_financing_frontend"
+        GIT_BRANCH_NAME      = "main"
+        GITHUB_CREDENTIALS_ID    = "github-df-b"        // your existing GitHub credential ID
+        DOCKERHUB_CREDENTIALS_ID = "dockerhub-jenkins-build-push-rw"  // your existing Docker Hub credential ID
+        SSH_CREDENTIALS_ID       = "deploy.11"          // your existing server SSH credential ID
+        IMAGE_NAME = "omaedeborah/distributor-financing-frontend"
+        NEXT_PUBLIC_API_URL   = "http://172.16.0.11:9092"   // <-- set your real prod API URL
+        NEXT_PUBLIC_USE_MOCKS = "false"                        // <-- set to "true" if backend isn't live yet
+    }
+    options {
+        disableConcurrentBuilds()
+        timestamps()
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: "${GIT_BRANCH_NAME}",
+                    credentialsId: "${GITHUB_CREDENTIALS_ID}",
+                    url: 'https://github.com/EMTECH-PLP/distributor_financing_frontend.git'
+            }
+        }
+
+        stage('Build Image') {
+            steps {
+                sh """
+                    docker build --no-cache \
+                        --build-arg NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL} \
+                        --build-arg NEXT_PUBLIC_USE_MOCKS=${NEXT_PUBLIC_USE_MOCKS} \
+                        -t ${IMAGE_NAME}:latest \
+                        -t ${IMAGE_NAME}:${env.BUILD_NUMBER} \
+                        .
+                """
+            }
+        }
+
+        stage('Push Image to Docker Hub') {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: "${DOCKERHUB_CREDENTIALS_ID}",
+                    usernameVariable: 'DOCKERHUB_USER',
+                    passwordVariable: 'DOCKERHUB_PASS'
+                )]) {
+                    sh """
+                        echo "\$DOCKERHUB_PASS" | docker login -u "\$DOCKERHUB_USER" --password-stdin
+                        docker push ${IMAGE_NAME}:latest
+                        docker push ${IMAGE_NAME}:${env.BUILD_NUMBER}
+                        docker logout
+                    """
+                }
+            }
+        }
+
+        stage('Deploy to Server') {
+            steps {
+                sshagent(credentials: ["${SSH_CREDENTIALS_ID}"]) {
+                    sh """
+                        scp -o StrictHostKeyChecking=no docker-compose.prod.yml ${DEPLOY_SERVER}:${DEPLOY_DIR}/docker-compose.yml
+                    """
+                    sh """
+                        ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} "
+                            set -e
+                            cd ${DEPLOY_DIR}
+                            docker compose pull
+                            docker compose up -d --remove-orphans 
+                            docker image prune -f
+                        "
+                    """
+                }
+            }
+        }
+    }
+    post {
+        always {
+            sh 'docker logout || true'
+        }
+        success { echo "✅ Built, pushed, and deployed frontend image (build #${env.BUILD_NUMBER}) to server." }
+        failure { echo "❌ Pipeline failed — check console log." }
+    }
+}
